@@ -12,7 +12,6 @@ URL: http://www.gtk.org/~otaylor/kanjipad/index.html
 Source: ftp://ftp.gtk.org/pub/users/otaylor/kanjipad/%{name}-%{version}.tar.bz2
 Patch0: kanjipad-1.2.1-add-useful-keyboard-shortcuts.patch.bz2
 BuildRequires: gtk+1.2-devel
-Buildroot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 KanjiPad is a simple (but snazzy) program which does Japanese handwriting
