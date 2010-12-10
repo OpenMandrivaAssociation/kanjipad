@@ -1,6 +1,6 @@
 %define name kanjipad
 %define version 1.2.1
-%define release %mkrel 7
+%define release %mkrel 8
 
 Name: %{name}
 Summary: Japanese handwriting recognition
