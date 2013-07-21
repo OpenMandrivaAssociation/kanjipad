@@ -1,18 +1,13 @@
-%define name kanjipad
-%define version 1.2.1
-%define release %mkrel 8
-
-Name: %{name}
+Name: kanjipad
 Summary: Japanese handwriting recognition
-Version: %{version}
-Release: %{release}
+Version: 1.2.3
+Release: 1
 License: GPL
 Group: System/Internationalization
 URL: http://www.gtk.org/~otaylor/kanjipad/index.html
-Source: ftp://ftp.gtk.org/pub/users/otaylor/kanjipad/%{name}-%{version}.tar.bz2
+Source: ftp://ftp.gtk.org:21/pub/users/otaylor/kanjipad/%{name}-%{version}.tar.gz
 Patch0: kanjipad-1.2.1-add-useful-keyboard-shortcuts.patch.bz2
 BuildRequires: gtk+1.2-devel
-Buildroot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 KanjiPad is a simple (but snazzy) program which does Japanese handwriting
@@ -27,11 +22,7 @@ algorithms from JavaDict for recognition.
 make BINDIR=%{_bindir} LIBDIR=%{_datadir}/%{name} OPTIMIZE="$RPM_OPT_FLAGS"
 
 %install
-rm -rf $RPM_BUILD_ROOT
 make install BINDIR=$RPM_BUILD_ROOT%{_bindir} LIBDIR=$RPM_BUILD_ROOT%{_datadir}/%{name}
-
-%clean
-rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-, root, root, 0755)
@@ -63,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
     - import kanjipad
 
 
-* Wed Oct 05 2005 Nicolas Lécureuil <neoclust@mandriva.org> 1.2.1-4mdk
+* Wed Oct 05 2005 Nicolas LÃ©cureuil <neoclust@mandriva.org> 1.2.1-4mdk
 - Fix redundant BuildRequires
 - %%mkrel 
 
@@ -75,3 +66,4 @@ rm -rf $RPM_BUILD_ROOT
 
 * Thu Apr  3 2003 Guillaume Cottenceau <gc@mandrakesoft.com> 1.2.1-1mdk
 - first mdk version (thx pterjan)
+

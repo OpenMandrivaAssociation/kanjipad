@@ -1,3 +1,5 @@
+removed_sources:
+  kanjipad-1.2.1.tar.bz2: c6749732a94d3f5ebd05a884e1e372b33c1001bf
 sources:
-  "kanjipad-1.2.1-add-useful-keyboard-shortcuts.patch.bz2": b5f1ee0dea991c84136a43963800b118be8fc94b
-  "kanjipad-1.2.1.tar.bz2": c6749732a94d3f5ebd05a884e1e372b33c1001bf
+  kanjipad-1.2.1-add-useful-keyboard-shortcuts.patch.bz2: b5f1ee0dea991c84136a43963800b118be8fc94b
+  kanjipad-1.2.3.tar.gz: 4733415a6d4c6696b0ab22b3b657b26093cbdf10
