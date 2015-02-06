@@ -1,7 +1,7 @@
 Name: kanjipad
 Summary: Japanese handwriting recognition
 Version: 1.2.3
-Release: 1
+Release: 2
 License: GPL
 Group: System/Internationalization
 URL: http://www.gtk.org/~otaylor/kanjipad/index.html
