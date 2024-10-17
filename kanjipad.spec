@@ -4,7 +4,7 @@ Version: 1.2.3
 Release: 2
 License: GPL
 Group: System/Internationalization
-URL: http://www.gtk.org/~otaylor/kanjipad/index.html
+URL: https://www.gtk.org/~otaylor/kanjipad/index.html
 Source: ftp://ftp.gtk.org:21/pub/users/otaylor/kanjipad/%{name}-%{version}.tar.gz
 Patch0: kanjipad-1.2.1-add-useful-keyboard-shortcuts.patch.bz2
 BuildRequires: gtk+1.2-devel
