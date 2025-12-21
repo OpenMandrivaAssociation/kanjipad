@@ -7,6 +7,7 @@ Group: System/Internationalization
 URL: https://www.gtk.org/~otaylor/kanjipad/index.html
 Source: ftp://ftp.gtk.org:21/pub/users/otaylor/kanjipad/%{name}-%{version}.tar.gz
 Patch0: kanjipad-1.2.1-add-useful-keyboard-shortcuts.patch.bz2
+BuildRequires:	make
 BuildRequires: gtk+1.2-devel
 
 %description
